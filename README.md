@@ -7,7 +7,7 @@ gulp
 
 # Dev stack
 
-HTML 5 
-CSS 3
-Vanilla JavaScript
-Gulp
+1. HTML 5 
+2. CSS 3
+3. Vanilla JavaScript
+4. Gulp
