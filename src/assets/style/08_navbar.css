@@ -1,0 +1,36 @@
+.nav {
+   position: fixed;
+   top: 0;
+   right: -100%;
+   background-color: rgba(0, 0, 0, 0.93);
+   color: var(--white);
+   width: 100%;
+   height: 100vh;
+   padding: 1.5rem 0;
+   z-index: 2;
+   transition: 0.5s;
+}
+
+.nav-list {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+   width: 100%;
+   margin-top: 50%;
+   padding: 0;
+}
+
+.nav-link {
+   font-size: 1.375rem;
+   padding: 10px;
+   color: var(--white);
+}
+
+.nav-link:hover {
+   background-color: var(--soft-grey);
+}
+
+.nav-item {
+   margin: 16px;
+}

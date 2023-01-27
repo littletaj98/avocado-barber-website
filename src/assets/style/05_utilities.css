@@ -1,0 +1,52 @@
+body {
+   background-color: var(--black);
+   color: var(--white);
+}
+
+header {
+   background-color: var(--black);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+.flex {
+   display: flex;
+}
+
+.logo {
+   position: relative;
+   z-index: 3;
+}
+
+.container {
+   padding: 0.75rem 1rem;
+}
+
+.logo::after {
+   background-image: url("assets/img/logo_name.svg");
+   position: absolute;
+   background-size: 50px 28px;
+   width: 50px;
+   height: 28px;
+   display: inline-block;
+   vertical-align: middle;
+   content: "";
+   top: 8px;
+   margin-left: 0.25rem;
+}
+
+.absolute {
+   position: absolute;
+   top: 0;
+   z-index: -1;
+   width: 100%;
+}
