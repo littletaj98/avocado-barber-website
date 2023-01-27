@@ -1,6 +1,9 @@
 # Avocado-Barber
 Webová stránka pro BarberShop | Website for BarberShop
 
+avocadobarber.cz
+avocadobarber.art
+
 # Dev stack
 
 1. HTML 5 
